@@ -31,17 +31,6 @@ public class LoginForm {
 
         // Add the background label to the frame's content pane
         frame.setContentPane(new JLabel(new ImageIcon(scaledImage))); 
-    	
-        // Set up the frame
-      /*  frame = new JFrame("Gym Management System");
-        frame.setSize(1366, 768);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(null);
-       // frame.getContentPane().setBackground(Color.decode("#f0f8ff"));
-        ImageIcon img = new ImageIcon("C:\\Users\\akash_bandage\\Desktop\\ITEP\\Gym Project Files\\Backgroun Images\\LoginPage2.png");
-        JLabel l1 =  new JLabel(img);
-        l1.setSize(1366,768);
-        frame.add(l1);*/
 
         // Calculate the center position for the fields
         int fieldWidth = 300;
