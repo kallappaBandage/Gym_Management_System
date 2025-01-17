@@ -22,7 +22,7 @@ public class LoginForm {
         frame.setLayout(null);
 
         // Add background image
-        ImageIcon backgroundImg = new ImageIcon("C:\\Users\\akash_bandage\\Desktop\\ITEP\\Gym Project Files\\Backgroun Images\\LoginPage.png");
+        ImageIcon backgroundImg = new ImageIcon("C:\\Users\\akash_bandage\\Desktop\\ITEP\\Gym Project Files\\Backgroun Images\\LoginPage2.png");
         Image scaledImage = backgroundImg.getImage().getScaledInstance(1366, 768, Image.SCALE_SMOOTH); // Scaling the image
         Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\akash_bandage\\Desktop\\ITEP\\Gym Project Files\\Backgroun Images\\Logo.jpg"); 
         backgroundImg.setImage(icon);   
